@@ -54,7 +54,7 @@
 /* how many characters wide the list window will be, by default */
 #define LISTWIN_DEFAULT_CHARS 25 
 #define TERMWIN_DEFAULT_CHARS 135
-#define TERMWIN_MIN 130
+#define TERMWIN_MIN 80
 
 #define RTFM "Syntax: omnitty [-W list_width] [-T term_width]\n" \
              "\n" \
