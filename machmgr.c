@@ -26,7 +26,13 @@
 #include "machine.h"
 #include "minibuf.h"
 #include <string.h>
+#include "sys/param.h" 
+
+#ifdef BSD
+#include "stdlib.h"
+#else
 #include <alloca.h>
+#endif
 
 #define MACHINE_MAX 256
 
